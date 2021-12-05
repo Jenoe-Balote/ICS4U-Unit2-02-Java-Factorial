@@ -1,5 +1,5 @@
 /*
-* This is a program that calculates factorials via recursion.
+* This program calculates factorials through recursion.
 *
 * @author  Jenoe Balote
 * @version 1.0
@@ -30,7 +30,7 @@ final class Factorial {
     /**
     * The factorial() function.
     *
-    * @param input is the user-inputted int.
+    * @param input is the user input.
     * @return the factorial
     */
     public static int factorial(final int input) {
@@ -58,7 +58,7 @@ final class Factorial {
         final int factorial;
 
         try {
-
+            // Input 
             System.out.println("This program calculates factorials.");
             System.out.print("Enter an integer: ");
 
@@ -68,6 +68,7 @@ final class Factorial {
 
             input = Integer.valueOf(inputString);
 
+            // Output
             factorial = factorial(input);
             System.out.println(input + "! = " + factorial);
 
