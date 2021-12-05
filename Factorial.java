@@ -58,7 +58,7 @@ final class Factorial {
         final int factorial;
 
         try {
-            // Input 
+            // Input
             System.out.println("This program calculates factorials.");
             System.out.print("Enter an integer: ");
 
